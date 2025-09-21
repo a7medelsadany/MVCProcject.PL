@@ -1,0 +1,15 @@
+D:\route course\backend\C#\MVCProcject.PL\MVCProject.BLL\bin\Debug\net9.0\MVCProject.BLL.deps.json
+D:\route course\backend\C#\MVCProcject.PL\MVCProject.BLL\bin\Debug\net9.0\MVCProject.BLL.dll
+D:\route course\backend\C#\MVCProcject.PL\MVCProject.BLL\bin\Debug\net9.0\MVCProject.BLL.pdb
+D:\route course\backend\C#\MVCProcject.PL\MVCProject.BLL\bin\Debug\net9.0\MVCProject.DAL.dll
+D:\route course\backend\C#\MVCProcject.PL\MVCProject.BLL\bin\Debug\net9.0\MVCProject.DAL.pdb
+D:\route course\backend\C#\MVCProcject.PL\MVCProject.BLL\obj\Debug\net9.0\MVCProject.BLL.csproj.AssemblyReference.cache
+D:\route course\backend\C#\MVCProcject.PL\MVCProject.BLL\obj\Debug\net9.0\MVCProject.BLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\route course\backend\C#\MVCProcject.PL\MVCProject.BLL\obj\Debug\net9.0\MVCProject.BLL.AssemblyInfoInputs.cache
+D:\route course\backend\C#\MVCProcject.PL\MVCProject.BLL\obj\Debug\net9.0\MVCProject.BLL.AssemblyInfo.cs
+D:\route course\backend\C#\MVCProcject.PL\MVCProject.BLL\obj\Debug\net9.0\MVCProject.BLL.csproj.CoreCompileInputs.cache
+D:\route course\backend\C#\MVCProcject.PL\MVCProject.BLL\obj\Debug\net9.0\MVCProje.1F9BD553.Up2Date
+D:\route course\backend\C#\MVCProcject.PL\MVCProject.BLL\obj\Debug\net9.0\MVCProject.BLL.dll
+D:\route course\backend\C#\MVCProcject.PL\MVCProject.BLL\obj\Debug\net9.0\refint\MVCProject.BLL.dll
+D:\route course\backend\C#\MVCProcject.PL\MVCProject.BLL\obj\Debug\net9.0\MVCProject.BLL.pdb
+D:\route course\backend\C#\MVCProcject.PL\MVCProject.BLL\obj\Debug\net9.0\ref\MVCProject.BLL.dll

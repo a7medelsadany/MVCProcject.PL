@@ -1,0 +1,12 @@
+D:\route course\backend\C#\MVCProcject.PL\MVCProject.DAL\bin\Debug\net9.0\MVCProject.DAL.deps.json
+D:\route course\backend\C#\MVCProcject.PL\MVCProject.DAL\bin\Debug\net9.0\MVCProject.DAL.dll
+D:\route course\backend\C#\MVCProcject.PL\MVCProject.DAL\bin\Debug\net9.0\MVCProject.DAL.pdb
+D:\route course\backend\C#\MVCProcject.PL\MVCProject.DAL\obj\Debug\net9.0\MVCProject.DAL.csproj.AssemblyReference.cache
+D:\route course\backend\C#\MVCProcject.PL\MVCProject.DAL\obj\Debug\net9.0\MVCProject.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\route course\backend\C#\MVCProcject.PL\MVCProject.DAL\obj\Debug\net9.0\MVCProject.DAL.AssemblyInfoInputs.cache
+D:\route course\backend\C#\MVCProcject.PL\MVCProject.DAL\obj\Debug\net9.0\MVCProject.DAL.AssemblyInfo.cs
+D:\route course\backend\C#\MVCProcject.PL\MVCProject.DAL\obj\Debug\net9.0\MVCProject.DAL.csproj.CoreCompileInputs.cache
+D:\route course\backend\C#\MVCProcject.PL\MVCProject.DAL\obj\Debug\net9.0\MVCProject.DAL.dll
+D:\route course\backend\C#\MVCProcject.PL\MVCProject.DAL\obj\Debug\net9.0\refint\MVCProject.DAL.dll
+D:\route course\backend\C#\MVCProcject.PL\MVCProject.DAL\obj\Debug\net9.0\MVCProject.DAL.pdb
+D:\route course\backend\C#\MVCProcject.PL\MVCProject.DAL\obj\Debug\net9.0\ref\MVCProject.DAL.dll
