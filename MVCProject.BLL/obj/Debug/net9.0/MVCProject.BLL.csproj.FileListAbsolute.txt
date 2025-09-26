@@ -13,3 +13,4 @@ D:\route course\backend\C#\MVCProcject.PL\MVCProject.BLL\obj\Debug\net9.0\MVCPro
 D:\route course\backend\C#\MVCProcject.PL\MVCProject.BLL\obj\Debug\net9.0\refint\MVCProject.BLL.dll
 D:\route course\backend\C#\MVCProcject.PL\MVCProject.BLL\obj\Debug\net9.0\MVCProject.BLL.pdb
 D:\route course\backend\C#\MVCProcject.PL\MVCProject.BLL\obj\Debug\net9.0\ref\MVCProject.BLL.dll
+D:\route course\backend\C#\MVCProcject.PL\MVCProject.BLL\obj\Debug\net9.0\MVCProject.BLL.sourcelink.json

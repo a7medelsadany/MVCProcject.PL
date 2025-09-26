@@ -100,7 +100,7 @@ namespace MVCProcject.PL.Controllers
             {
                 var UpdateDepartment = new UpdateDepartmentDto()
                 {
-                    Id=id.Value,
+                    DeptId = id.Value,
                     code=viewModel.code,
                     Name=viewModel.Name,
                     Description =viewModel.Description,

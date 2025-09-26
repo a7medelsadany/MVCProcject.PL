@@ -10,3 +10,4 @@ D:\route course\backend\C#\MVCProcject.PL\MVCProject.DAL\obj\Debug\net9.0\MVCPro
 D:\route course\backend\C#\MVCProcject.PL\MVCProject.DAL\obj\Debug\net9.0\refint\MVCProject.DAL.dll
 D:\route course\backend\C#\MVCProcject.PL\MVCProject.DAL\obj\Debug\net9.0\MVCProject.DAL.pdb
 D:\route course\backend\C#\MVCProcject.PL\MVCProject.DAL\obj\Debug\net9.0\ref\MVCProject.DAL.dll
+D:\route course\backend\C#\MVCProcject.PL\MVCProject.DAL\obj\Debug\net9.0\MVCProject.DAL.sourcelink.json

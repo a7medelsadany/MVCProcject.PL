@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MVCProject.DAL.Models
+namespace MVCProject.DAL.Models.DepartmentModule
 {
     public class BaseEntity
     {

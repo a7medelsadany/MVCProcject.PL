@@ -1,8 +1,11 @@
+using AutoMapper;
 using Microsoft.EntityFrameworkCore;
+using MVCProject.BLL;
 using MVCProject.BLL.Services.Classes;
 using MVCProject.BLL.Services.Interfaces;
 using MVCProject.DAL.Data.Context;
 using MVCProject.DAL.Repositories;
+using MVCProject.DAL.Repositories.Employee;
 
 namespace MVCProcject.PL
 {
@@ -18,6 +21,10 @@ namespace MVCProcject.PL
             #region Configure services
             builder.Services.AddScoped<IDepartmentRepository, DepartmentRepository>();
             builder.Services.AddScoped<IDepartmentServices, DepartmentServices>();
+            builder.Services.AddScoped<IEmployeeRepository, EmployeeRepository>();
+            builder.Services.AddScoped<IEmployeeServcies, EmployeeServcies>();
+
+            builder.Services.AddAutoMapper(E => E.AddProfile(new MappingProfiles()));
             builder.Services.AddDbContext<ApplicationDbContext>(options=>
             {
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
