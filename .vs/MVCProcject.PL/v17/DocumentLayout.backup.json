@@ -3,24 +3,16 @@
   "WorkspaceRootPath": "D:\\route course\\backend\\C#\\MVCProcject.PL\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{08F345B3-028A-4854-AF1A-B7695BEC1ACB}|MVCProcject.PL\\MVCProcject.PL.csproj|d:\\route course\\backend\\c#\\mvcprocject.pl\\mvcprocject.pl\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{08F345B3-028A-4854-AF1A-B7695BEC1ACB}|MVCProcject.PL\\MVCProcject.PL.csproj|solutionrelative:mvcprocject.pl\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{08F345B3-028A-4854-AF1A-B7695BEC1ACB}|MVCProcject.PL\\MVCProcject.PL.csproj|d:\\route course\\backend\\c#\\mvcprocject.pl\\mvcprocject.pl\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{08F345B3-028A-4854-AF1A-B7695BEC1ACB}|MVCProcject.PL\\MVCProcject.PL.csproj|solutionrelative:mvcprocject.pl\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08F345B3-028A-4854-AF1A-B7695BEC1ACB}|MVCProcject.PL\\MVCProcject.PL.csproj|d:\\route course\\backend\\c#\\mvcprocject.pl\\mvcprocject.pl\\views\\employee\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{08F345B3-028A-4854-AF1A-B7695BEC1ACB}|MVCProcject.PL\\MVCProcject.PL.csproj|solutionrelative:mvcprocject.pl\\views\\employee\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08F345B3-028A-4854-AF1A-B7695BEC1ACB}|MVCProcject.PL\\MVCProcject.PL.csproj|d:\\route course\\backend\\c#\\mvcprocject.pl\\mvcprocject.pl\\views\\employee\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{08F345B3-028A-4854-AF1A-B7695BEC1ACB}|MVCProcject.PL\\MVCProcject.PL.csproj|solutionrelative:mvcprocject.pl\\views\\employee\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{28DBC6E0-9E4B-4A8A-BA69-75B0DEA67676}|MVCProject.BLL\\MVCProject.BLL.csproj|d:\\route course\\backend\\c#\\mvcprocject.pl\\mvcproject.bll\\services\\classes\\employeeservcies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{28DBC6E0-9E4B-4A8A-BA69-75B0DEA67676}|MVCProject.BLL\\MVCProject.BLL.csproj|solutionrelative:mvcproject.bll\\services\\classes\\employeeservcies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08F345B3-028A-4854-AF1A-B7695BEC1ACB}|MVCProcject.PL\\MVCProcject.PL.csproj|d:\\route course\\backend\\c#\\mvcprocject.pl\\mvcprocject.pl\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{08F345B3-028A-4854-AF1A-B7695BEC1ACB}|MVCProcject.PL\\MVCProcject.PL.csproj|solutionrelative:mvcprocject.pl\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{28DBC6E0-9E4B-4A8A-BA69-75B0DEA67676}|MVCProject.BLL\\MVCProject.BLL.csproj|d:\\route course\\backend\\c#\\mvcprocject.pl\\mvcproject.bll\\mappingprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,17 +26,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "EmployeeServcies.cs",
               "DocumentMoniker": "D:\\route course\\backend\\C#\\MVCProcject.PL\\MVCProject.BLL\\Services\\Classes\\EmployeeServcies.cs",
               "RelativeDocumentMoniker": "MVCProject.BLL\\Services\\Classes\\EmployeeServcies.cs",
               "ToolTip": "D:\\route course\\backend\\C#\\MVCProcject.PL\\MVCProject.BLL\\Services\\Classes\\EmployeeServcies.cs",
               "RelativeToolTip": "MVCProject.BLL\\Services\\Classes\\EmployeeServcies.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAowDUAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwDUAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-22T15:35:39.697Z",
               "IsPinned": true,
@@ -52,7 +44,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "MappingProfiles.cs",
               "DocumentMoniker": "D:\\route course\\backend\\C#\\MVCProcject.PL\\MVCProject.BLL\\MappingProfiles.cs",
               "RelativeDocumentMoniker": "MVCProject.BLL\\MappingProfiles.cs",
@@ -61,17 +53,18 @@
               "ViewState": "AgIAAA4AAAAAAAAAAAAxwBoAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-24T13:30:00.261Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "EmployeeController.cs",
               "DocumentMoniker": "D:\\route course\\backend\\C#\\MVCProcject.PL\\MVCProcject.PL\\Controllers\\EmployeeController.cs",
               "RelativeDocumentMoniker": "MVCProcject.PL\\Controllers\\EmployeeController.cs",
-              "ToolTip": "D:\\route course\\backend\\C#\\MVCProcject.PL\\MVCProcject.PL\\Controllers\\EmployeeController.cs",
-              "RelativeToolTip": "MVCProcject.PL\\Controllers\\EmployeeController.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAwwJ4AAAA2AAAAAAAAAA==",
+              "ToolTip": "D:\\route course\\backend\\C#\\MVCProcject.PL\\MVCProcject.PL\\Controllers\\EmployeeController.cs*",
+              "RelativeToolTip": "MVCProcject.PL\\Controllers\\EmployeeController.cs*",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBMAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-24T16:20:54.408Z",
               "IsPinned": true,
@@ -79,41 +72,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "D:\\route course\\backend\\C#\\MVCProcject.PL\\MVCProcject.PL\\Views\\Employee\\Edit.cshtml",
-              "RelativeDocumentMoniker": "MVCProcject.PL\\Views\\Employee\\Edit.cshtml",
-              "ToolTip": "D:\\route course\\backend\\C#\\MVCProcject.PL\\MVCProcject.PL\\Views\\Employee\\Edit.cshtml",
-              "RelativeToolTip": "MVCProcject.PL\\Views\\Employee\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-26T08:46:10.643Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\route course\\backend\\C#\\MVCProcject.PL\\MVCProcject.PL\\Views\\Employee\\Index.cshtml",
               "RelativeDocumentMoniker": "MVCProcject.PL\\Views\\Employee\\Index.cshtml",
               "ToolTip": "D:\\route course\\backend\\C#\\MVCProcject.PL\\MVCProcject.PL\\Views\\Employee\\Index.cshtml",
               "RelativeToolTip": "MVCProcject.PL\\Views\\Employee\\Index.cshtml",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAAEMAAABoAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-26T08:38:03.739Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "D:\\route course\\backend\\C#\\MVCProcject.PL\\MVCProcject.PL\\Views\\Employee\\Delete.cshtml",
-              "RelativeDocumentMoniker": "MVCProcject.PL\\Views\\Employee\\Delete.cshtml",
-              "ToolTip": "D:\\route course\\backend\\C#\\MVCProcject.PL\\MVCProcject.PL\\Views\\Employee\\Delete.cshtml",
-              "RelativeToolTip": "MVCProcject.PL\\Views\\Employee\\Delete.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAFYAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-26T08:33:53.568Z",
+              "WhenOpened": "2025-09-26T20:50:29.124Z",
               "EditorCaption": ""
             }
           ]

@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using MVCProcject.PL.ViewModels.EmployeeViewModels;
+using MVCProject.BLL.DTOS;
 using MVCProject.BLL.DTOS.employees;
 using MVCProject.BLL.Services.Classes;
 using MVCProject.BLL.Services.Interfaces;
@@ -16,6 +17,8 @@ namespace MVCProcject.PL.Controllers
         [HttpGet]
         public IActionResult Index()
         {
+            //ViewData["Message"] = new DepartmentsDto { Name="hello from view data with casting"};
+            //ViewBag.Message = "Hello from View Bag";
             var Employee = _employeeServcies.GetAllEmployees();
             return View(Employee);
         }
