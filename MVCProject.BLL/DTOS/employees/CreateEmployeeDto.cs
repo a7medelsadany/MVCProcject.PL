@@ -1,4 +1,5 @@
-﻿using MVCProject.DAL.Models.EmployeeModule;
+﻿using Microsoft.AspNetCore.Http;
+using MVCProject.DAL.Models.EmployeeModule;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -45,5 +46,8 @@ namespace MVCProject.BLL.DTOS.employees
         public EmployeeType employeeType { get; set; }
         public int CreatedBy { get; set; }
         public int LastModificationBy { get; set; }
+        public int? DepartId { get; set; }
+
+        public IFormFile? Image { get; set; }
     }
 }

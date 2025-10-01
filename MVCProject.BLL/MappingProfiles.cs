@@ -24,9 +24,14 @@ namespace MVCProject.BLL
                 .ForMember(dest => dest.Id, option => option.MapFrom(src => src.DeptId));
 
 
-            CreateMap<Employees, EmployeeDto>();
+            CreateMap<Employees, EmployeeDto>()
+                .ForMember(dest=>dest.Department,options=>options.MapFrom(src=>src.Department!=null?src.Department.Name:null));
+
+
             CreateMap<Employees, EmployeeDetailsDto>()
-                .ForMember(dest=>dest.phoneNumber,opt=>opt.MapFrom(src=>src.PhoneNumber));
+                .ForMember(dest=>dest.phoneNumber,opt=>opt.MapFrom(src=>src.PhoneNumber))   
+            .ForMember(dest => dest.Department, options => options.MapFrom(src => src.Department != null ? src.Department.Name : null))
+            .ForMember(dest=>dest.Image,options=>options.MapFrom(src=>src.ImageName));
 
             CreateMap<CreateEmployeeDto, Employees>();
             CreateMap<UpdateEmployeeDto, Employees>();

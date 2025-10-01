@@ -62,6 +62,8 @@ D:\route course\backend\C#\MVCProcject.PL\MVCProcject.PL\wwwroot\lib\bootstrap\d
 D:\route course\backend\C#\MVCProcject.PL\MVCProcject.PL\wwwroot\js\site.js
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\Files\Images\21ec67a6-18ec-48c0-b128-7600b14c27e6_IMG_20231208_021841_847.jpg
+wwwroot\Files\Images\4297990a-a4e3-48b4-ab76-24bdcc5920f7_FB_IMG_1667573622613.jpg
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map

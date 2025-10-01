@@ -1,4 +1,6 @@
-﻿using MVCProject.DAL.Models.EmployeeModule;
+﻿using Microsoft.AspNetCore.Mvc.Rendering;
+using MVCProject.DAL.Models.EmployeeModule;
+using System.ComponentModel.DataAnnotations;
 
 namespace MVCProcject.PL.ViewModels.EmployeeViewModels
 {
@@ -19,5 +21,9 @@ namespace MVCProcject.PL.ViewModels.EmployeeViewModels
         public DateTime? Createdon { get; set; }
         public int LastModificationBy { get; set; }
         public DateTime? LastModificationOn { get; set; }
+        [Display(Name ="Department Name")]
+        public int? DepartId { get; set; }
+        public IEnumerable<SelectListItem>? Departments { get; set; }
+        public IFormFile? Image { get; set; }
     }
 }

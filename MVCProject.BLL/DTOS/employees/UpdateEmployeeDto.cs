@@ -24,5 +24,7 @@ namespace MVCProject.BLL.DTOS.employees
         public DateTime? Createdon { get; set; }
         public int LastModificationBy { get; set; }
         public DateTime? LastModificationOn { get; set; }
+        public int? DepartId { get; set; }
+
     }
 }

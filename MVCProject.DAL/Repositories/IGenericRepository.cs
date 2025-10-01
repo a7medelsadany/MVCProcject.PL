@@ -9,10 +9,10 @@ namespace MVCProject.DAL.Repositories
 {
     public interface IGenericRepository<TEntity> where TEntity:BaseEntity
     {
-        int Add(TEntity entity);
+        void Add(TEntity entity);
         IEnumerable<TEntity> GetAll(bool withTracking = false);
         TEntity GetById(int id);
-        int Remove(TEntity entity);
-        int Update(TEntity entity);
+        void Remove(TEntity entity);
+        void Update(TEntity entity);
     }
 }

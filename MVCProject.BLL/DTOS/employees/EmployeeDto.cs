@@ -21,5 +21,7 @@ namespace MVCProject.BLL.DTOS.employees
         public string? Email { get; set; }
         public Gender gender { get; set; }
         public EmployeeType employeeType { get; set; }
+        public int? DepartId { get; set; }
+        public string? Department { get; set; }
     }
 }

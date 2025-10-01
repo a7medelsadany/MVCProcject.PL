@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
 
-namespace MVCProject.DAL.Data.Migrationas
+namespace MVCProject.DAL.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
     partial class ApplicationDbContextModelSnapshot : ModelSnapshot
@@ -18,6 +18,9 @@ namespace MVCProject.DAL.Data.Migrationas
 #pragma warning disable 612, 618
             modelBuilder
                 .HasAnnotation("ProductVersion", "9.0.9")
+                .HasAnnotation("Proxies:ChangeTracking", false)
+                .HasAnnotation("Proxies:CheckEquality", false)
+                .HasAnnotation("Proxies:LazyLoading", true)
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
@@ -87,6 +90,9 @@ namespace MVCProject.DAL.Data.Migrationas
                         .HasColumnType("datetime2")
                         .HasDefaultValueSql("GETDATE()");
 
+                    b.Property<int?>("DepartId")
+                        .HasColumnType("int");
+
                     b.Property<string>("Email")
                         .HasColumnType("nvarchar(max)");
 
@@ -100,6 +106,9 @@ namespace MVCProject.DAL.Data.Migrationas
 
                     b.Property<DateTime>("HiringDate")
                         .HasColumnType("datetime2");
+
+                    b.Property<string>("ImageName")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("IsActive")
                         .HasColumnType("bit");
@@ -128,7 +137,24 @@ namespace MVCProject.DAL.Data.Migrationas
 
                     b.HasKey("Id");
 
+                    b.HasIndex("DepartId");
+
                     b.ToTable("Employees");
+                });
+
+            modelBuilder.Entity("MVCProject.DAL.Models.EmployeeModule.Employees", b =>
+                {
+                    b.HasOne("MVCProject.DAL.Models.DepartmentModule.Department", "Department")
+                        .WithMany("Employees")
+                        .HasForeignKey("DepartId")
+                        .OnDelete(DeleteBehavior.SetNull);
+
+                    b.Navigation("Department");
+                });
+
+            modelBuilder.Entity("MVCProject.DAL.Models.DepartmentModule.Department", b =>
+                {
+                    b.Navigation("Employees");
                 });
 #pragma warning restore 612, 618
         }

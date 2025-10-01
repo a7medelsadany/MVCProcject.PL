@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "D:\\route course\\backend\\C#\\MVCProcject.PL\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{08F345B3-028A-4854-AF1A-B7695BEC1ACB}|MVCProcject.PL\\MVCProcject.PL.csproj|d:\\route course\\backend\\c#\\mvcprocject.pl\\mvcprocject.pl\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{08F345B3-028A-4854-AF1A-B7695BEC1ACB}|MVCProcject.PL\\MVCProcject.PL.csproj|solutionrelative:mvcprocject.pl\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{08F345B3-028A-4854-AF1A-B7695BEC1ACB}|MVCProcject.PL\\MVCProcject.PL.csproj|d:\\route course\\backend\\c#\\mvcprocject.pl\\mvcprocject.pl\\views\\employee\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{08F345B3-028A-4854-AF1A-B7695BEC1ACB}|MVCProcject.PL\\MVCProcject.PL.csproj|solutionrelative:mvcprocject.pl\\views\\employee\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28DBC6E0-9E4B-4A8A-BA69-75B0DEA67676}|MVCProject.BLL\\MVCProject.BLL.csproj|d:\\route course\\backend\\c#\\mvcprocject.pl\\mvcproject.bll\\dtos\\employees\\employeedetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28DBC6E0-9E4B-4A8A-BA69-75B0DEA67676}|MVCProject.BLL\\MVCProject.BLL.csproj|solutionrelative:mvcproject.bll\\dtos\\employees\\employeedetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{08F345B3-028A-4854-AF1A-B7695BEC1ACB}|MVCProcject.PL\\MVCProcject.PL.csproj|d:\\route course\\backend\\c#\\mvcprocject.pl\\mvcprocject.pl\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,8 +19,16 @@
       "RelativeMoniker": "D:0:0:{28DBC6E0-9E4B-4A8A-BA69-75B0DEA67676}|MVCProject.BLL\\MVCProject.BLL.csproj|solutionrelative:mvcproject.bll\\services\\classes\\employeeservcies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28DBC6E0-9E4B-4A8A-BA69-75B0DEA67676}|MVCProject.BLL\\MVCProject.BLL.csproj|d:\\route course\\backend\\c#\\mvcprocject.pl\\mvcproject.bll\\mappingprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28DBC6E0-9E4B-4A8A-BA69-75B0DEA67676}|MVCProject.BLL\\MVCProject.BLL.csproj|solutionrelative:mvcproject.bll\\mappingprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{55CA467B-7776-4D54-9654-12FD596F8DC0}|MVCProject.DAL\\MVCProject.DAL.csproj|d:\\route course\\backend\\c#\\mvcprocject.pl\\mvcproject.dal\\models\\employeemodule\\employees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55CA467B-7776-4D54-9654-12FD596F8DC0}|MVCProject.DAL\\MVCProject.DAL.csproj|solutionrelative:mvcproject.dal\\models\\employeemodule\\employees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08F345B3-028A-4854-AF1A-B7695BEC1ACB}|MVCProcject.PL\\MVCProcject.PL.csproj|d:\\route course\\backend\\c#\\mvcprocject.pl\\mvcprocject.pl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08F345B3-028A-4854-AF1A-B7695BEC1ACB}|MVCProcject.PL\\MVCProcject.PL.csproj|solutionrelative:mvcprocject.pl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28DBC6E0-9E4B-4A8A-BA69-75B0DEA67676}|MVCProject.BLL\\MVCProject.BLL.csproj|d:\\route course\\backend\\c#\\mvcprocject.pl\\mvcproject.bll\\services\\attachmentservice\\attachmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28DBC6E0-9E4B-4A8A-BA69-75B0DEA67676}|MVCProject.BLL\\MVCProject.BLL.csproj|solutionrelative:mvcproject.bll\\services\\attachmentservice\\attachmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,61 +38,97 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EmployeeServcies.cs",
-              "DocumentMoniker": "D:\\route course\\backend\\C#\\MVCProcject.PL\\MVCProject.BLL\\Services\\Classes\\EmployeeServcies.cs",
-              "RelativeDocumentMoniker": "MVCProject.BLL\\Services\\Classes\\EmployeeServcies.cs",
-              "ToolTip": "D:\\route course\\backend\\C#\\MVCProcject.PL\\MVCProject.BLL\\Services\\Classes\\EmployeeServcies.cs",
-              "RelativeToolTip": "MVCProject.BLL\\Services\\Classes\\EmployeeServcies.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAqwDUAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T15:35:39.697Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MappingProfiles.cs",
-              "DocumentMoniker": "D:\\route course\\backend\\C#\\MVCProcject.PL\\MVCProject.BLL\\MappingProfiles.cs",
-              "RelativeDocumentMoniker": "MVCProject.BLL\\MappingProfiles.cs",
-              "ToolTip": "D:\\route course\\backend\\C#\\MVCProcject.PL\\MVCProject.BLL\\MappingProfiles.cs",
-              "RelativeToolTip": "MVCProject.BLL\\MappingProfiles.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAxwBoAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T13:30:00.261Z",
-              "IsPinned": true,
+              "DocumentIndex": 0,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\route course\\backend\\C#\\MVCProcject.PL\\MVCProcject.PL\\Views\\Employee\\Details.cshtml",
+              "RelativeDocumentMoniker": "MVCProcject.PL\\Views\\Employee\\Details.cshtml",
+              "ToolTip": "D:\\route course\\backend\\C#\\MVCProcject.PL\\MVCProcject.PL\\Views\\Employee\\Details.cshtml",
+              "RelativeToolTip": "MVCProcject.PL\\Views\\Employee\\Details.cshtml",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAwBoAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-01T16:40:02.3Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "EmployeeController.cs",
-              "DocumentMoniker": "D:\\route course\\backend\\C#\\MVCProcject.PL\\MVCProcject.PL\\Controllers\\EmployeeController.cs",
-              "RelativeDocumentMoniker": "MVCProcject.PL\\Controllers\\EmployeeController.cs",
-              "ToolTip": "D:\\route course\\backend\\C#\\MVCProcject.PL\\MVCProcject.PL\\Controllers\\EmployeeController.cs*",
-              "RelativeToolTip": "MVCProcject.PL\\Controllers\\EmployeeController.cs*",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBMAAAALAAAAAAAAAA==",
+              "Title": "EmployeeDetailsDto.cs",
+              "DocumentMoniker": "D:\\route course\\backend\\C#\\MVCProcject.PL\\MVCProject.BLL\\DTOS\\employees\\EmployeeDetailsDto.cs",
+              "RelativeDocumentMoniker": "MVCProject.BLL\\DTOS\\employees\\EmployeeDetailsDto.cs",
+              "ToolTip": "D:\\route course\\backend\\C#\\MVCProcject.PL\\MVCProject.BLL\\DTOS\\employees\\EmployeeDetailsDto.cs",
+              "RelativeToolTip": "MVCProject.BLL\\DTOS\\employees\\EmployeeDetailsDto.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T16:20:54.408Z",
-              "IsPinned": true,
+              "WhenOpened": "2025-10-01T16:38:02.034Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\route course\\backend\\C#\\MVCProcject.PL\\MVCProcject.PL\\Views\\Employee\\Index.cshtml",
-              "RelativeDocumentMoniker": "MVCProcject.PL\\Views\\Employee\\Index.cshtml",
-              "ToolTip": "D:\\route course\\backend\\C#\\MVCProcject.PL\\MVCProcject.PL\\Views\\Employee\\Index.cshtml",
-              "RelativeToolTip": "MVCProcject.PL\\Views\\Employee\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-26T20:50:29.124Z",
+              "DocumentIndex": 2,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "D:\\route course\\backend\\C#\\MVCProcject.PL\\MVCProcject.PL\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "MVCProcject.PL\\Controllers\\EmployeeController.cs",
+              "ToolTip": "D:\\route course\\backend\\C#\\MVCProcject.PL\\MVCProcject.PL\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "MVCProcject.PL\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAwwEAAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T16:19:24.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmployeeServcies.cs",
+              "DocumentMoniker": "D:\\route course\\backend\\C#\\MVCProcject.PL\\MVCProject.BLL\\Services\\Classes\\EmployeeServcies.cs",
+              "RelativeDocumentMoniker": "MVCProject.BLL\\Services\\Classes\\EmployeeServcies.cs",
+              "ToolTip": "D:\\route course\\backend\\C#\\MVCProcject.PL\\MVCProject.BLL\\Services\\Classes\\EmployeeServcies.cs",
+              "RelativeToolTip": "MVCProject.BLL\\Services\\Classes\\EmployeeServcies.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowC8AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T16:16:54.016Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Employees.cs",
+              "DocumentMoniker": "D:\\route course\\backend\\C#\\MVCProcject.PL\\MVCProject.DAL\\Models\\EmployeeModule\\Employees.cs",
+              "RelativeDocumentMoniker": "MVCProject.DAL\\Models\\EmployeeModule\\Employees.cs",
+              "ToolTip": "D:\\route course\\backend\\C#\\MVCProcject.PL\\MVCProject.DAL\\Models\\EmployeeModule\\Employees.cs",
+              "RelativeToolTip": "MVCProject.DAL\\Models\\EmployeeModule\\Employees.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAkwBwAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T16:13:49.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\route course\\backend\\C#\\MVCProcject.PL\\MVCProcject.PL\\Program.cs",
+              "RelativeDocumentMoniker": "MVCProcject.PL\\Program.cs",
+              "ToolTip": "D:\\route course\\backend\\C#\\MVCProcject.PL\\MVCProcject.PL\\Program.cs",
+              "RelativeToolTip": "MVCProcject.PL\\Program.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAgwBwAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T14:52:26.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AttachmentService.cs",
+              "DocumentMoniker": "D:\\route course\\backend\\C#\\MVCProcject.PL\\MVCProject.BLL\\Services\\AttachmentService\\AttachmentService.cs",
+              "RelativeDocumentMoniker": "MVCProject.BLL\\Services\\AttachmentService\\AttachmentService.cs",
+              "ToolTip": "D:\\route course\\backend\\C#\\MVCProcject.PL\\MVCProject.BLL\\Services\\AttachmentService\\AttachmentService.cs",
+              "RelativeToolTip": "MVCProject.BLL\\Services\\AttachmentService\\AttachmentService.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwDAAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T13:10:11.088Z",
               "EditorCaption": ""
             }
           ]

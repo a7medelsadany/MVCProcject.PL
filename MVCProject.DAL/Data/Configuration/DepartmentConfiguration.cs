@@ -15,6 +15,11 @@ namespace MVCProject.DAL.Data.Configuration
             builder.Property(d => d.Id).UseIdentityColumn(10, 10);
             builder.Property(d => d.Name).HasColumnType("varchar(20)");
             builder.Property(d => d.code).HasColumnType("varchar(10)");
+            builder.HasMany(D => D.Employees)
+                .WithOne(E => E.Department)
+                .HasForeignKey(E => E.DepartId)
+                .OnDelete(DeleteBehavior.SetNull);
+
             base.Configure(builder);
           
         }

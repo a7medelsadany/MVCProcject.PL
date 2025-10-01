@@ -22,6 +22,10 @@ namespace MVCProject.DAL.Models.EmployeeModule
         public string? PhoneNumber { get; set; }
         public  DateTime HiringDate {  get; set; }
         public Gender Gender {  get; set; }
-        public EmployeeType EmployeeType {  get; set; } 
+        public EmployeeType EmployeeType {  get; set; }
+
+        public int? DepartId { get; set; }
+        public virtual Department? Department { get; set; }
+        public string? ImageName { get; set; }
     }
 }

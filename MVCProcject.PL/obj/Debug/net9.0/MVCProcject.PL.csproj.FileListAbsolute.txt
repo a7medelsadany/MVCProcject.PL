@@ -343,3 +343,5 @@ D:\route course\backend\C#\MVCProcject.PL\MVCProcject.PL\bin\Debug\net9.0\zh-Han
 D:\route course\backend\C#\MVCProcject.PL\MVCProcject.PL\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
 D:\route course\backend\C#\MVCProcject.PL\MVCProcject.PL\obj\Debug\net9.0\MVCProcject.PL.sourcelink.json
 D:\route course\backend\C#\MVCProcject.PL\MVCProcject.PL\bin\Debug\net9.0\AutoMapper.dll
+D:\route course\backend\C#\MVCProcject.PL\MVCProcject.PL\bin\Debug\net9.0\Castle.Core.dll
+D:\route course\backend\C#\MVCProcject.PL\MVCProcject.PL\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Proxies.dll

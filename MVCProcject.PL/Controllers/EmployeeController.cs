@@ -1,25 +1,33 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using MVCProcject.PL.ViewModels.EmployeeViewModels;
 using MVCProject.BLL.DTOS;
 using MVCProject.BLL.DTOS.employees;
 using MVCProject.BLL.Services.Classes;
 using MVCProject.BLL.Services.Interfaces;
+using MVCProject.DAL.Models.DepartmentModule;
+using MVCProject.DAL.Models.EmployeeModule;
 
 namespace MVCProcject.PL.Controllers
 {
-    public class EmployeeController(IEmployeeServcies employeeServcies, ILogger<EmployeeController> ILogger, IWebHostEnvironment environment) : Controller
+    public class EmployeeController(IEmployeeServcies employeeServcies, ILogger<EmployeeController> ILogger, IWebHostEnvironment environment,IDepartmentServices departmentServices) : Controller
     {
         private readonly IEmployeeServcies _employeeServcies = employeeServcies;
         private readonly ILogger<EmployeeController> _iLogger = ILogger;
         private readonly IWebHostEnvironment _environment = environment;
+        private readonly IDepartmentServices _departmentServices = departmentServices;
 
         [HttpGet]
-        public IActionResult Index()
+        public IActionResult Index(string? EmployeeSearchName)
         {
             //ViewData["Message"] = new DepartmentsDto { Name="hello from view data with casting"};
             //ViewBag.Message = "Hello from View Bag";
             var Employee = _employeeServcies.GetAllEmployees();
+            if (!string.IsNullOrWhiteSpace(EmployeeSearchName))
+            {
+                Employee = Employee.Where(e => e.Name.Contains(EmployeeSearchName, StringComparison.OrdinalIgnoreCase));
+            }
             return View(Employee);
         }
 
@@ -27,23 +35,46 @@ namespace MVCProcject.PL.Controllers
         [HttpGet]
         public IActionResult Create(int id)
         {
-            return View();
+            var model = new EmployeeEditViewModel
+            {
+                Departments = _departmentServices.GetAllDepartments()
+                    .Select(d => new SelectListItem { Value = d.DeptId.ToString(), Text = d.Name })
+            };
+            return View(model);
         }
 
         [HttpPost]
-        public IActionResult Create(CreateEmployeeDto createEmployeeDto)
+       
+        public IActionResult Create(EmployeeEditViewModel EmployeeVM)
         {
-            if (ModelState.IsValid)
+            if (ModelState.IsValid) { 
                 try
                 {
+                    var createEmployeeDto = new CreateEmployeeDto
+                    {
+                        Name = EmployeeVM.Name,
+                        Address = EmployeeVM.Address,
+                        DepartId=EmployeeVM.DepartId,
+                        Age = EmployeeVM.Age,
+                        Salary = EmployeeVM.Salary,
+                        Email = EmployeeVM.Email,
+                        employeeType=EmployeeVM.employeeType,
+                        gender=EmployeeVM.gender,
+                        HiringDate=EmployeeVM.HiringDate,
+                        PhoneNumber=EmployeeVM.phoneNumber,
+                        Image= EmployeeVM.Image,
+                    };
                     int result = _employeeServcies.Add(createEmployeeDto);
+                    
                     if (result > 0)
                     {
                         return RedirectToAction(nameof(Index));
+
                     }
                     else
                     {
-                        ModelState.AddModelError(string.Empty, "Employee can not be Created");
+                        ModelState.AddModelError(string.Empty, "employee can not be created!!");
+
                     }
                 }
                 catch (Exception ex)
@@ -55,11 +86,21 @@ namespace MVCProcject.PL.Controllers
                     else
                     {
                         _iLogger.LogError(ex.Message);
-                        ModelState.AddModelError(string.Empty, "Some thing went wrong");
                     }
                 }
-            return View(createEmployeeDto);
+
+            }
+            if (!ModelState.IsValid)
+            {
+                var errors = ModelState.Values.SelectMany(e => e.Errors).Select(e => e.ErrorMessage).ToList();
+                ViewBag.Errors = errors;
+                EmployeeVM.Departments =
+                    _departmentServices.GetAllDepartments()
+                    .Select(d => new SelectListItem { Value = d.DeptId.ToString(), Text = d.Name });
+            }
+            return View (EmployeeVM);
         }
+
         #endregion
 
         #region Details
@@ -97,19 +138,38 @@ namespace MVCProcject.PL.Controllers
                 LastModificationBy = employee.LastModificationBy,
                 LastModificationOn = employee.LastModificationOn,
                 gender = employee.gender,
+                DepartId= employee.DepartId,
             };
+            UpdateEmployee.Departments = _departmentServices.GetAllDepartments()
+                .Select(d => new SelectListItem 
+                {
+                    Value = d.DeptId.ToString(), 
+                    Text = d.Name,
+                    Selected=d.DeptId==employee.Id
+                });
             return View(UpdateEmployee);
         }
 
         [HttpPost]
         public IActionResult Edit([FromRoute] int? id, EmployeeEditViewModel employeeEditViewModel)
         {
-            if (!ModelState.IsValid) return View(employeeEditViewModel);
+            if(!id.HasValue) return BadRequest();
+            if (!ModelState.IsValid)
+            {
+                employeeEditViewModel.Departments = _departmentServices.GetAllDepartments()
+               .Select(d => new SelectListItem
+               {
+                   Value = d.DeptId.ToString(),
+                   Text = d.Name,
+                   Selected = d.DeptId == employeeEditViewModel.Id
+               });
+                return View(employeeEditViewModel);
+            }
             try
             {
                 var updateEmployee = new UpdateEmployeeDto()
                 {
-                    Id = employeeEditViewModel.Id,
+                    Id = id.Value,
                     Name = employeeEditViewModel.Name,
                     Age = employeeEditViewModel.Age,
                     Address = employeeEditViewModel.Address,
@@ -123,30 +183,42 @@ namespace MVCProcject.PL.Controllers
                     Createdon = employeeEditViewModel.Createdon,
                     LastModificationBy = employeeEditViewModel.LastModificationBy,
                     LastModificationOn = DateTime.Now,
+                    DepartId= employeeEditViewModel.DepartId,
                 };
-                int result = _employeeServcies.Update(updateEmployee);
+                var result = _employeeServcies.Update(updateEmployee);
                 if (result > 0)
                 {
                     return RedirectToAction(nameof(Index));
                 }
-                else
-                {
                     ModelState.AddModelError(string.Empty, "Employee can not be Updated");
-                    return View(employeeEditViewModel);
-                }
+                    employeeEditViewModel.Departments = _departmentServices.GetAllDepartments()
+                     .Select(d => new SelectListItem
+                        {
+                          Value = d.DeptId.ToString(),
+                          Text = d.Name,
+                          Selected = d.DeptId == employeeEditViewModel.Id
+                        });
+                 return View(employeeEditViewModel);
+
             }
             catch (Exception ex)
             {
                 if (_environment.IsDevelopment())
                 {
                     ModelState.AddModelError(string.Empty, ex.Message);
+                    employeeEditViewModel.Departments = _departmentServices.GetAllDepartments()
+                    .Select(d => new SelectListItem
+                        {
+                            Value = d.DeptId.ToString(),
+                            Text = d.Name,
+                            Selected = d.DeptId == employeeEditViewModel.Id
+                        });
                     return View(employeeEditViewModel);
                 }
                 else
                 {
                     _iLogger.LogError(ex.Message);
-                    ModelState.AddModelError(string.Empty, "Some thing went wrong");
-                    return View(employeeEditViewModel);
+                    return View("ErrorView", ex);
                 }
             }
         }

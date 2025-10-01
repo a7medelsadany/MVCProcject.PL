@@ -27,24 +27,24 @@ namespace MVCProject.DAL.Repositories
         => dbContext.Set<TEntity>().Find(id);
 
         //add
-        public int Add(TEntity entity)
+        public void Add(TEntity entity)
         {
             dbContext.Set<TEntity>().Add(entity);
-            return dbContext.SaveChanges();
+           
         }
 
         //update
-        public int Update(TEntity entity)
+        public void Update(TEntity entity)
         {
             dbContext.Set<TEntity>().Update(entity);
-            return dbContext.SaveChanges();
+          
         }
 
         //Delete or Remove
-        public int Remove(TEntity entity)
+        public void Remove(TEntity entity)
         {
             dbContext.Set<TEntity>().Remove(entity);
-            return dbContext.SaveChanges();
+           
         }
     }
 }

@@ -9,11 +9,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
 
-namespace MVCProject.DAL.Data.Migrationas
+namespace MVCProject.DAL.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250924101641_EditEmployee")]
-    partial class EditEmployee
+    [Migration("20250928151009_IntailCreate")]
+    partial class IntailCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -90,6 +90,9 @@ namespace MVCProject.DAL.Data.Migrationas
                         .HasColumnType("datetime2")
                         .HasDefaultValueSql("GETDATE()");
 
+                    b.Property<int?>("DepartId")
+                        .HasColumnType("int");
+
                     b.Property<string>("Email")
                         .HasColumnType("nvarchar(max)");
 
@@ -131,7 +134,24 @@ namespace MVCProject.DAL.Data.Migrationas
 
                     b.HasKey("Id");
 
+                    b.HasIndex("DepartId");
+
                     b.ToTable("Employees");
+                });
+
+            modelBuilder.Entity("MVCProject.DAL.Models.EmployeeModule.Employees", b =>
+                {
+                    b.HasOne("MVCProject.DAL.Models.DepartmentModule.Department", "Department")
+                        .WithMany("Employees")
+                        .HasForeignKey("DepartId")
+                        .OnDelete(DeleteBehavior.SetNull);
+
+                    b.Navigation("Department");
+                });
+
+            modelBuilder.Entity("MVCProject.DAL.Models.DepartmentModule.Department", b =>
+                {
+                    b.Navigation("Employees");
                 });
 #pragma warning restore 612, 618
         }

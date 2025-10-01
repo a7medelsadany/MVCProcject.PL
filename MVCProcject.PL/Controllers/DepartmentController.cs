@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿    using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 using MVCProcject.PL.ViewModels.DepartmentsViewModels;
 using MVCProject.BLL.DTOS;
@@ -46,14 +46,14 @@ namespace MVCProcject.PL.Controllers
                     if (environment.IsDevelopment())
                     {
                         ModelState.AddModelError(string.Empty, ex.Message);
-                        return View(departmentDTO);
+                       
                     }
 
                     //Deployment Envrioment
                     else
                     {
                         logger.LogError(ex.Message);
-                        return View(departmentDTO);
+                        
                     }
                 }
 
@@ -93,14 +93,14 @@ namespace MVCProcject.PL.Controllers
         }
 
         [HttpPost]
-        public IActionResult Edit([FromRoute]int? id,DepartmentEditViewModel viewModel)
+        public IActionResult Edit(DepartmentEditViewModel viewModel)
         {
             if (!ModelState.IsValid) return View(viewModel);
             try
             {
                 var UpdateDepartment = new UpdateDepartmentDto()
                 {
-                    DeptId = id.Value,
+                    DeptId = viewModel.Id,
                     code=viewModel.code,
                     Name=viewModel.Name,
                     Description =viewModel.Description,
