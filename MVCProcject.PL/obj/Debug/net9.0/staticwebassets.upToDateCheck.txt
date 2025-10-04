@@ -30,6 +30,7 @@ D:\route course\backend\C#\MVCProcject.PL\MVCProcject.PL\wwwroot\lib\bootstrap\d
 D:\route course\backend\C#\MVCProcject.PL\MVCProcject.PL\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
 D:\route course\backend\C#\MVCProcject.PL\MVCProcject.PL\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
 D:\route course\backend\C#\MVCProcject.PL\MVCProcject.PL\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+D:\route course\backend\C#\MVCProcject.PL\MVCProcject.PL\wwwroot\css\AuthStyle.css
 D:\route course\backend\C#\MVCProcject.PL\MVCProcject.PL\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 D:\route course\backend\C#\MVCProcject.PL\MVCProcject.PL\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
 D:\route course\backend\C#\MVCProcject.PL\MVCProcject.PL\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
@@ -60,6 +61,7 @@ D:\route course\backend\C#\MVCProcject.PL\MVCProcject.PL\wwwroot\css\site.css
 D:\route course\backend\C#\MVCProcject.PL\MVCProcject.PL\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
 D:\route course\backend\C#\MVCProcject.PL\MVCProcject.PL\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
 D:\route course\backend\C#\MVCProcject.PL\MVCProcject.PL\wwwroot\js\site.js
+wwwroot\css\AuthStyle.css
 wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\Files\Images\21ec67a6-18ec-48c0-b128-7600b14c27e6_IMG_20231208_021841_847.jpg

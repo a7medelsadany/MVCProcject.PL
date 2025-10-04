@@ -1,10 +1,12 @@
 using AutoMapper;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using MVCProject.BLL;
 using MVCProject.BLL.Services.AttachmentService;
 using MVCProject.BLL.Services.Classes;
 using MVCProject.BLL.Services.Interfaces;
 using MVCProject.DAL.Data.Context;
+using MVCProject.DAL.Models.Shared;
 using MVCProject.DAL.Repositories;
 using MVCProject.DAL.Repositories.Employee;
 using MVCProject.DAL.Repositories.UnitOfWork;
@@ -27,6 +29,10 @@ namespace MVCProcject.PL
             builder.Services.AddScoped<IEmployeeServcies, EmployeeServcies>();
             builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
             builder.Services.AddScoped<IAttachmentService, AttachmentService>();
+            builder.Services.AddIdentity<ApplicationUser, IdentityRole>(options =>
+            {
+
+            }).AddEntityFrameworkStores<ApplicationDbContext>();
 
             builder.Services.AddAutoMapper(E => E.AddProfile(new MappingProfiles()));
             builder.Services.AddDbContext<ApplicationDbContext>(options=>
@@ -54,7 +60,7 @@ namespace MVCProcject.PL
             app.MapStaticAssets();
             app.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=Home}/{action=Index}/{id?}")
+                pattern: "{controller=Account}/{action=Login}/{id?}")
                 .WithStaticAssets();
 
             app.Run();
