@@ -1,4 +1,5 @@
-﻿    using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 using MVCProcject.PL.ViewModels.DepartmentsViewModels;
 using MVCProject.BLL.DTOS;
@@ -7,6 +8,7 @@ using MVCProject.DAL.Models;
 
 namespace MVCProcject.PL.Controllers
 {
+    [Authorize]
     public class DepartmentController(IDepartmentServices departmentServices, ILogger<DepartmentController> logger,IWebHostEnvironment environment) : Controller
     {
         [HttpGet]

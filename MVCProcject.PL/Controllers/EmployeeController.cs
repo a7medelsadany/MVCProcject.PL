@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using MVCProcject.PL.ViewModels.EmployeeViewModels;
@@ -11,6 +12,7 @@ using MVCProject.DAL.Models.EmployeeModule;
 
 namespace MVCProcject.PL.Controllers
 {
+    [Authorize]
     public class EmployeeController(IEmployeeServcies employeeServcies, ILogger<EmployeeController> ILogger, IWebHostEnvironment environment,IDepartmentServices departmentServices) : Controller
     {
         private readonly IEmployeeServcies _employeeServcies = employeeServcies;

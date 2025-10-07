@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using MVCProject.BLL;
 using MVCProject.BLL.Services.AttachmentService;
 using MVCProject.BLL.Services.Classes;
+using MVCProject.BLL.Services.EmailSender;
 using MVCProject.BLL.Services.Interfaces;
 using MVCProject.DAL.Data.Context;
 using MVCProject.DAL.Models.Shared;
@@ -28,11 +29,13 @@ namespace MVCProcject.PL
             builder.Services.AddScoped<IEmployeeRepository, EmployeeRepository>();
             builder.Services.AddScoped<IEmployeeServcies, EmployeeServcies>();
             builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+            builder.Services.AddScoped<IEmailSender, EmailSender>();
             builder.Services.AddScoped<IAttachmentService, AttachmentService>();
             builder.Services.AddIdentity<ApplicationUser, IdentityRole>(options =>
             {
 
-            }).AddEntityFrameworkStores<ApplicationDbContext>();
+            }).AddEntityFrameworkStores<ApplicationDbContext>()
+                .AddDefaultTokenProviders();
 
             builder.Services.AddAutoMapper(E => E.AddProfile(new MappingProfiles()));
             builder.Services.AddDbContext<ApplicationDbContext>(options=>
@@ -55,6 +58,7 @@ namespace MVCProcject.PL
             app.UseHttpsRedirection();
             app.UseRouting();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.MapStaticAssets();

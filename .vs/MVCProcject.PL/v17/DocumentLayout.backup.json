@@ -7,8 +7,12 @@
       "RelativeMoniker": "D:0:0:{08F345B3-028A-4854-AF1A-B7695BEC1ACB}|MVCProcject.PL\\MVCProcject.PL.csproj|solutionrelative:mvcprocject.pl\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08F345B3-028A-4854-AF1A-B7695BEC1ACB}|MVCProcject.PL\\MVCProcject.PL.csproj|d:\\route course\\backend\\c#\\mvcprocject.pl\\mvcprocject.pl\\views\\shared\\_authlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{08F345B3-028A-4854-AF1A-B7695BEC1ACB}|MVCProcject.PL\\MVCProcject.PL.csproj|solutionrelative:mvcprocject.pl\\views\\shared\\_authlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{08F345B3-028A-4854-AF1A-B7695BEC1ACB}|MVCProcject.PL\\MVCProcject.PL.csproj|d:\\route course\\backend\\c#\\mvcprocject.pl\\mvcprocject.pl\\views\\account\\forgetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{08F345B3-028A-4854-AF1A-B7695BEC1ACB}|MVCProcject.PL\\MVCProcject.PL.csproj|solutionrelative:mvcprocject.pl\\views\\account\\forgetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08F345B3-028A-4854-AF1A-B7695BEC1ACB}|MVCProcject.PL\\MVCProcject.PL.csproj|d:\\route course\\backend\\c#\\mvcprocject.pl\\mvcprocject.pl\\views\\account\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{08F345B3-028A-4854-AF1A-B7695BEC1ACB}|MVCProcject.PL\\MVCProcject.PL.csproj|solutionrelative:mvcprocject.pl\\views\\account\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,8 +22,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ResetPassword.cshtml",
+              "DocumentMoniker": "D:\\route course\\backend\\C#\\MVCProcject.PL\\MVCProcject.PL\\Views\\Account\\ResetPassword.cshtml",
+              "RelativeDocumentMoniker": "MVCProcject.PL\\Views\\Account\\ResetPassword.cshtml",
+              "ToolTip": "D:\\route course\\backend\\C#\\MVCProcject.PL\\MVCProcject.PL\\Views\\Account\\ResetPassword.cshtml",
+              "RelativeToolTip": "MVCProcject.PL\\Views\\Account\\ResetPassword.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-07T18:03:04.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ForgetPassword.cshtml",
+              "DocumentMoniker": "D:\\route course\\backend\\C#\\MVCProcject.PL\\MVCProcject.PL\\Views\\Account\\ForgetPassword.cshtml",
+              "RelativeDocumentMoniker": "MVCProcject.PL\\Views\\Account\\ForgetPassword.cshtml",
+              "ToolTip": "D:\\route course\\backend\\C#\\MVCProcject.PL\\MVCProcject.PL\\Views\\Account\\ForgetPassword.cshtml",
+              "RelativeToolTip": "MVCProcject.PL\\Views\\Account\\ForgetPassword.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-07T15:24:12.903Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -28,22 +58,9 @@
               "RelativeDocumentMoniker": "MVCProcject.PL\\Controllers\\AccountController.cs",
               "ToolTip": "D:\\route course\\backend\\C#\\MVCProcject.PL\\MVCProcject.PL\\Controllers\\AccountController.cs",
               "RelativeToolTip": "MVCProcject.PL\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAApwDgAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAswJEAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-04T16:38:18.643Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_AuthLayout.cshtml",
-              "DocumentMoniker": "D:\\route course\\backend\\C#\\MVCProcject.PL\\MVCProcject.PL\\Views\\Shared\\_AuthLayout.cshtml",
-              "RelativeDocumentMoniker": "MVCProcject.PL\\Views\\Shared\\_AuthLayout.cshtml",
-              "ToolTip": "D:\\route course\\backend\\C#\\MVCProcject.PL\\MVCProcject.PL\\Views\\Shared\\_AuthLayout.cshtml",
-              "RelativeToolTip": "MVCProcject.PL\\Views\\Shared\\_AuthLayout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-04T16:37:49.726Z",
               "EditorCaption": ""
             }
           ]
