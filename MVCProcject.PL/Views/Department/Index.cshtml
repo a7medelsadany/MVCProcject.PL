@@ -33,7 +33,7 @@
                     <td>@Html.DisplayFor(c =>department.DateOfCreation) </td>
 
 
-                    <partial name="_ButtonPartailView" model="department.DeptId"></partial>
+                    <partial name="_ButtonPartailView" model="department.DeptId.ToString()"></partial>
 
                  <td>
                         <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#DeleteModal-@department.DeptId">

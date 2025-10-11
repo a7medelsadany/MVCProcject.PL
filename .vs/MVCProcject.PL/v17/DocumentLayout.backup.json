@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "D:\\route course\\backend\\C#\\MVCProcject.PL\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{08F345B3-028A-4854-AF1A-B7695BEC1ACB}|MVCProcject.PL\\MVCProcject.PL.csproj|d:\\route course\\backend\\c#\\mvcprocject.pl\\mvcprocject.pl\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08F345B3-028A-4854-AF1A-B7695BEC1ACB}|MVCProcject.PL\\MVCProcject.PL.csproj|solutionrelative:mvcprocject.pl\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{08F345B3-028A-4854-AF1A-B7695BEC1ACB}|MVCProcject.PL\\MVCProcject.PL.csproj|d:\\route course\\backend\\c#\\mvcprocject.pl\\mvcprocject.pl\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08F345B3-028A-4854-AF1A-B7695BEC1ACB}|MVCProcject.PL\\MVCProcject.PL.csproj|solutionrelative:mvcprocject.pl\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08F345B3-028A-4854-AF1A-B7695BEC1ACB}|MVCProcject.PL\\MVCProcject.PL.csproj|d:\\route course\\backend\\c#\\mvcprocject.pl\\mvcprocject.pl\\views\\account\\forgetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{08F345B3-028A-4854-AF1A-B7695BEC1ACB}|MVCProcject.PL\\MVCProcject.PL.csproj|solutionrelative:mvcprocject.pl\\views\\account\\forgetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{08F345B3-028A-4854-AF1A-B7695BEC1ACB}|MVCProcject.PL\\MVCProcject.PL.csproj|d:\\route course\\backend\\c#\\mvcprocject.pl\\mvcprocject.pl\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08F345B3-028A-4854-AF1A-B7695BEC1ACB}|MVCProcject.PL\\MVCProcject.PL.csproj|solutionrelative:mvcprocject.pl\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08F345B3-028A-4854-AF1A-B7695BEC1ACB}|MVCProcject.PL\\MVCProcject.PL.csproj|d:\\route course\\backend\\c#\\mvcprocject.pl\\mvcprocject.pl\\views\\account\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{08F345B3-028A-4854-AF1A-B7695BEC1ACB}|MVCProcject.PL\\MVCProcject.PL.csproj|solutionrelative:mvcprocject.pl\\views\\account\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{08F345B3-028A-4854-AF1A-B7695BEC1ACB}|MVCProcject.PL\\MVCProcject.PL.csproj|d:\\route course\\backend\\c#\\mvcprocject.pl\\mvcprocject.pl\\viewmodels\\userroleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08F345B3-028A-4854-AF1A-B7695BEC1ACB}|MVCProcject.PL\\MVCProcject.PL.csproj|solutionrelative:mvcprocject.pl\\viewmodels\\userroleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08F345B3-028A-4854-AF1A-B7695BEC1ACB}|MVCProcject.PL\\MVCProcject.PL.csproj|d:\\route course\\backend\\c#\\mvcprocject.pl\\mvcprocject.pl\\views\\role\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{08F345B3-028A-4854-AF1A-B7695BEC1ACB}|MVCProcject.PL\\MVCProcject.PL.csproj|solutionrelative:mvcprocject.pl\\views\\role\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08F345B3-028A-4854-AF1A-B7695BEC1ACB}|MVCProcject.PL\\MVCProcject.PL.csproj|d:\\route course\\backend\\c#\\mvcprocject.pl\\mvcprocject.pl\\viewmodels\\roleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08F345B3-028A-4854-AF1A-B7695BEC1ACB}|MVCProcject.PL\\MVCProcject.PL.csproj|solutionrelative:mvcprocject.pl\\viewmodels\\roleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +30,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ResetPassword.cshtml",
-              "DocumentMoniker": "D:\\route course\\backend\\C#\\MVCProcject.PL\\MVCProcject.PL\\Views\\Account\\ResetPassword.cshtml",
-              "RelativeDocumentMoniker": "MVCProcject.PL\\Views\\Account\\ResetPassword.cshtml",
-              "ToolTip": "D:\\route course\\backend\\C#\\MVCProcject.PL\\MVCProcject.PL\\Views\\Account\\ResetPassword.cshtml",
-              "RelativeToolTip": "MVCProcject.PL\\Views\\Account\\ResetPassword.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-07T18:03:04.95Z",
+              "DocumentIndex": 1,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\route course\\backend\\C#\\MVCProcject.PL\\MVCProcject.PL\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "MVCProcject.PL\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\route course\\backend\\C#\\MVCProcject.PL\\MVCProcject.PL\\Controllers\\UserController.cs",
+              "RelativeToolTip": "MVCProcject.PL\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-11T09:15:20.295Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ForgetPassword.cshtml",
-              "DocumentMoniker": "D:\\route course\\backend\\C#\\MVCProcject.PL\\MVCProcject.PL\\Views\\Account\\ForgetPassword.cshtml",
-              "RelativeDocumentMoniker": "MVCProcject.PL\\Views\\Account\\ForgetPassword.cshtml",
-              "ToolTip": "D:\\route course\\backend\\C#\\MVCProcject.PL\\MVCProcject.PL\\Views\\Account\\ForgetPassword.cshtml",
-              "RelativeToolTip": "MVCProcject.PL\\Views\\Account\\ForgetPassword.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\route course\\backend\\C#\\MVCProcject.PL\\MVCProcject.PL\\Views\\Role\\Edit.cshtml",
+              "RelativeDocumentMoniker": "MVCProcject.PL\\Views\\Role\\Edit.cshtml",
+              "ToolTip": "D:\\route course\\backend\\C#\\MVCProcject.PL\\MVCProcject.PL\\Views\\Role\\Edit.cshtml",
+              "RelativeToolTip": "MVCProcject.PL\\Views\\Role\\Edit.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-07T15:24:12.903Z",
+              "WhenOpened": "2025-10-11T09:07:43.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RoleViewModel.cs",
+              "DocumentMoniker": "D:\\route course\\backend\\C#\\MVCProcject.PL\\MVCProcject.PL\\ViewModels\\RoleViewModel.cs",
+              "RelativeDocumentMoniker": "MVCProcject.PL\\ViewModels\\RoleViewModel.cs",
+              "ToolTip": "D:\\route course\\backend\\C#\\MVCProcject.PL\\MVCProcject.PL\\ViewModels\\RoleViewModel.cs",
+              "RelativeToolTip": "MVCProcject.PL\\ViewModels\\RoleViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T14:45:51.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserRoleViewModel.cs",
+              "DocumentMoniker": "D:\\route course\\backend\\C#\\MVCProcject.PL\\MVCProcject.PL\\ViewModels\\UserRoleViewModel.cs",
+              "RelativeDocumentMoniker": "MVCProcject.PL\\ViewModels\\UserRoleViewModel.cs",
+              "ToolTip": "D:\\route course\\backend\\C#\\MVCProcject.PL\\MVCProcject.PL\\ViewModels\\UserRoleViewModel.cs",
+              "RelativeToolTip": "MVCProcject.PL\\ViewModels\\UserRoleViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T14:44:56.76Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "D:\\route course\\backend\\C#\\MVCProcject.PL\\MVCProcject.PL\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "MVCProcject.PL\\Controllers\\AccountController.cs",
-              "ToolTip": "D:\\route course\\backend\\C#\\MVCProcject.PL\\MVCProcject.PL\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "MVCProcject.PL\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAHsAAAAAAAAAAAAswJEAAAAnAAAAAAAAAA==",
+              "Title": "RoleController.cs",
+              "DocumentMoniker": "D:\\route course\\backend\\C#\\MVCProcject.PL\\MVCProcject.PL\\Controllers\\RoleController.cs",
+              "RelativeDocumentMoniker": "MVCProcject.PL\\Controllers\\RoleController.cs",
+              "ToolTip": "D:\\route course\\backend\\C#\\MVCProcject.PL\\MVCProcject.PL\\Controllers\\RoleController.cs",
+              "RelativeToolTip": "MVCProcject.PL\\Controllers\\RoleController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-04T16:38:18.643Z",
+              "WhenOpened": "2025-10-09T07:08:00.737Z",
               "EditorCaption": ""
             }
           ]
